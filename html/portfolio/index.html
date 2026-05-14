@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+    <main>
+        <!-- <section>
+            My Picture:- <br>
+            <a href="https://www.linkedin.com/in/madesh-h-n-0069841a3/"><img src="data:image/jpeg;base64,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" alt=""></a> 
+        </section>
+        <section>
+            education: KIT(CSE) | SSPT(Diploma)
+        </section>
+        <section>
+            experience: Capgemini(Software Engineer)
+        </section>
+        <article>my story: </article>
+        <aside>This is an ads</aside>
+
+        <!-- <ul>
+            <li>apple</li>
+            <ul>
+                <li>Color: red</li>
+                <li>Season: All</li>
+            </ul>
+            <li>mango</li>
+            <ul>
+                <li>Color: orange</li>
+                <li>Season: Summer</li>
+            </ul>
+        </ul>
+        <ol type="I">
+            <li>apple</li>
+            <ol>
+                <li>Color: red</li>
+                <li>Season: All</li>
+            </ol>
+            <li>mango</li>
+            <ol>
+                <li>Color: orange</li>
+                <li>Season: Summer</li>
+            </ul>
+        </ol> -->
+   <!--<table>
+            <thead>
+            <caption>Student Data</caption>
+            <tr>
+                <th colspan="2">
+                    Information
+                </th>
+                
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Madhu</td>
+                <td>02</td>
+            </tr>
+            </tbody>
+        </table> -->
+
+        <!-- <p>forms</p>
+        <form action="/">
+            
+            <input type="text" placeholder="name" id="username">
+            <br><br>
+            <input type="password" placeholder="usn">
+            <br><br>
+            <input type="file" name="resume" id="resume">
+            <br><br>
+            <h5>select your class</h5>
+            <br><br>
+            <label for="101">
+                <input type="radio" value="class XI" name="class" id="101">class XI
+            </label>
+            <br> <br>
+            <label for="102">
+                <input type="radio" value="class XII" name="class" id="102">class XII
+            </label>
+            <br><br>
+            <h5>Select your favourite subjects </h5>
+            <label for="math">
+                <input type="checkbox" value="math" name="subject"> Maths.
+            </label>
+            <br><br>
+            <label for="Physics">
+                <input type="checkbox" value="math" name="subject"> Physics.
+            </label>
+            <br><br>
+            <label for="Chemistry">
+                <input type="checkbox" value="math" name="subject"> Chemistry.
+            </label>
+            <br><br>
+            <label for="Computer">
+                <input type="checkbox" value="math" name="subject"> Computer.
+            </label>
+            <br><br>
+            Select the city:- 
+            <select name="city" id="city">
+                <option value="Bengaluru">Bengaluru</option>
+                <option value="Tumkur">Tumkur</option>
+            </select>
+            <br><br>
+            <textarea name="feedback" rows="5" placeholder="Give me feedback on how my web page looking like"></textarea>
+            <input type="submit" value="submit">
+        </form> -->
+
+        <video src="../simple.mp4" height="315" width="560" autoplay controls loop></video>
+    </main>
+    <footer>
+        <h5>Contact me at abc@gmail.com </h5>
+        <h5><a href="https://github.com/madempire">Github</a> | <a href="https://www.linkedin.com/in/madesh-h-n-0069841a3/">LinkeIn</a></h5>
+    </footer>
+</body>
+</html>
